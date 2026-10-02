@@ -1,0 +1,6 @@
+{
+  "name": "PantryChef - Smart Kitchen Recipe Finder",
+  "description": "Discover delicious recipes crafted from ingredients already in your pantry. Intelligent ingredient matching across Japanese, Western, and Chinese cuisines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-terracotta: #C85A32;
+  --color-terracotta-dark: #A9431E;
+  --color-sage: #52796F;
+  --color-amber-warm: #D97706;
+  --color-cream: #FAF7F2;
+  --color-warm-card: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF7F2;
+  color: #2D241E;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: var(--font-serif);
+}
+

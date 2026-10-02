@@ -1,0 +1,75 @@
+import { IngredientCategory } from '../types/recipe';
+
+export const COMMON_INGREDIENT_CATEGORIES: IngredientCategory[] = [
+  {
+    name: 'Sauces & Condiments',
+    iconName: 'wine',
+    items: [
+      'Soy Sauce',
+      'Mirin',
+      'Vinegar',
+      'Oyster Sauce',
+      'Fish Sauce',
+      'Chili Oil',
+      'Hoisin Sauce',
+      'Sriracha',
+      'Ketchup',
+      'Mayonnaise',
+      'Mustard',
+    ],
+  },
+  {
+    name: 'Proteins',
+    iconName: 'beef',
+    items: ['Chicken', 'Beef', 'Eggs', 'Tofu', 'Pork', 'Shrimp', 'Salmon'],
+  },
+  {
+    name: 'Vegetables & Aromatics',
+    iconName: 'carrot',
+    items: [
+      'Onion',
+      'Garlic',
+      'Tomato',
+      'Scallion',
+      'Carrot',
+      'Potato',
+      'Ginger',
+      'Mushroom',
+      'Bell Pepper',
+      'Spinach',
+      'Broccoli',
+    ],
+  },
+  {
+    name: 'Pantry & Seasonings',
+    iconName: 'sparkles',
+    items: [
+      'Salt',
+      'Black Pepper',
+      'Sugar',
+      'Chili Flakes',
+      'Paprika',
+      'Cumin',
+      'Curry Powder',
+      'Sesame Seeds',
+    ],
+  },
+  {
+    name: 'Oils & Dairy',
+    iconName: 'droplet',
+    items: [
+      'Olive Oil',
+      'Butter',
+      'Sesame Oil',
+      'Vegetable Oil',
+      'Milk',
+      'Cream',
+      'Cheese',
+    ],
+  },
+  {
+    name: 'Grains & Carbs',
+    iconName: 'wheat',
+    items: ['Rice', 'Pasta', 'Noodles', 'Bread', 'Flour', 'Cornstarch'],
+  },
+];
